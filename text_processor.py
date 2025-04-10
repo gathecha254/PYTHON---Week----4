@@ -1,3 +1,4 @@
+
 # Python code to process input.txt and create output.txt  
 
 # Read the contents of input.txt  
@@ -24,5 +25,5 @@ with open('output.txt', 'w') as output_file:
     # Write the word count  
     output_file.write(f'\nWord Count: {word_count}\n')  
 
-# Step 4: Print a success message  
+# Print a success message  
 print("The output.txt file has been created successfully!")  
